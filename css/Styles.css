@@ -236,7 +236,7 @@ p {
   }
 
   .profile p {
-    text-align: justify;
+    text-align: center;
   }
 
   .img {
@@ -250,7 +250,7 @@ p {
   }
 
   .project-row p {
-    text-align: justify;
+    text-align: center;
   }
 
   .button-1,
