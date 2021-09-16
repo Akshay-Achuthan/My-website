@@ -227,7 +227,7 @@ p {
   .bottom-cloud {
     position: absolute;
     left: 5%;
-    bottom: 38%;
+    bottom: 28%;
     width: 18%;
   }
 
@@ -237,6 +237,8 @@ p {
 
   .profile p {
     text-align: center;
+    width: 100%;
+    margin: auto;
   }
 
   .img {
@@ -256,5 +258,21 @@ p {
   .button-1,
   .button-2 {
     text-align: center;
+  }
+
+  .navigation a {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .top-container-image {
+    width: 150px;
   }
 }
