@@ -1,0 +1,63 @@
+/* body styles */
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  background-color: #d4ecdd;
+  line-height: 2;
+}
+
+/* html tags styles */
+
+h1 {
+  font-family: "Merienda", cursive;
+  margin: 50px auto 0 auto;
+  color: #112031;
+  font-size: 2em;
+}
+
+h2 {
+  color: #112031;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #b05b3b;
+}
+
+/* navigation menu styling */
+
+.navigation {
+  padding: 20px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.navigation li {
+  display: inline;
+  padding: 10px;
+}
+
+.navigation a {
+  font-size: 1.3rem;
+  color: #112031;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  border: 2px solid #22577a;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.active {
+  border: 2px solid #b05b3b;
+  border-radius: 20px;
+  padding: 10px;
+}

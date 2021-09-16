@@ -1,0 +1,260 @@
+/* body styles */
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  background-color: #d4ecdd;
+  line-height: 2;
+}
+
+/* html tags styles */
+
+h1 {
+  font-family: "Merienda", cursive;
+  margin: 50px auto 0 auto;
+  color: #112031;
+  font-size: 2em;
+}
+
+h2 {
+  color: #112031;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #b05b3b;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #b05b3b;
+  width: 5%;
+}
+
+/* navigation menu styling */
+
+.navigation {
+  padding: 20px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.navigation li {
+  display: inline;
+  padding: 10px;
+}
+
+.navigation a {
+  font-size: 1.3rem;
+  color: #112031;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  border: 2px solid #22577a;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.active {
+  border: 2px solid #b05b3b;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* top division styling */
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* top division images styling and positioning */
+
+.top-container-image {
+  width: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 200px;
+  max-width: 150px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 20px;
+  width: 150px;
+}
+
+/* middle container styling */
+
+.middle-container {
+  margin: 30px;
+}
+
+/* profile introduction section */
+
+.profile {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
+.profile-image {
+  width: 150px;
+}
+
+/* project section */
+
+.projects {
+  padding: 20px;
+  margin: auto;
+}
+
+.project-row {
+  width: 60%;
+  padding: 30px;
+  margin: 60px auto;
+  text-align: left;
+}
+
+.padding h3,
+p {
+  padding: 10px;
+}
+
+/* .link-button */
+
+.button {
+  padding: 10px;
+}
+
+.link-button {
+  text-decoration: none;
+  color: #b05b3b;
+  padding: 10px;
+  border: 2px solid #112031;
+  border-radius: 20px;
+}
+
+.link-button:hover {
+  border: 2px solid #b05b3b;
+  border-radius: 20px;
+}
+
+/* link-1 button  */
+
+.button-1 {
+  text-align: right;
+  margin: auto;
+}
+
+/* link-2 button */
+
+.button-2 {
+  text-align: left;
+  margin: auto;
+}
+
+/* project image styling */
+
+.img-padding {
+  padding: 20px;
+  width: 25%;
+}
+
+.laptop-img {
+  float: left;
+  margin-right: 30px;
+  box-shadow: black -10px 10px 10px;
+}
+
+.blogging-img {
+  float: right;
+  margin-left: 30px;
+  box-shadow: black 10px 10px 10px;
+}
+
+/* footer section */
+
+.bottom-container {
+  background-color: #112031;
+  color: white;
+  padding: 20px;
+}
+
+.bottom-container p {
+  font-family: "Merienda", cursive;
+  margin: 0%;
+}
+
+.bottom-container a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.bottom-container img {
+  width: 40px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.bottom-container img:hover {
+  background-color: #d4ecdd;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+  .top-cloud {
+    position: absolute;
+    right: 3%;
+    top: 7%;
+    width: 18%;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 5%;
+    bottom: 38%;
+    width: 18%;
+  }
+
+  .middle-container div {
+    width: 80%;
+  }
+
+  .profile p {
+    text-align: justify;
+  }
+
+  .img {
+    float: none;
+    width: 50%;
+    margin: 2% 20%;
+  }
+
+  .project-row h3 {
+    text-align: center;
+  }
+
+  .project-row p {
+    text-align: justify;
+  }
+
+  .button-1,
+  .button-2 {
+    text-align: center;
+  }
+}
