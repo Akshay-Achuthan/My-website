@@ -15,7 +15,7 @@ h1 {
   font-family: "Merienda", cursive;
   margin: 50px auto 0 auto;
   color: #112031;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h2 {
@@ -102,9 +102,8 @@ hr {
 /* middle container styling */
 
 .middle-container {
-  margin: 30px;
+  margin: 5%;
 }
-
 /* profile introduction section */
 
 .profile {
@@ -219,7 +218,7 @@ p {
 @media (min-width: 200px) and (max-width: 800px) {
   .top-cloud {
     position: absolute;
-    right: 3%;
+    right: 7%;
     top: 7%;
     width: 18%;
   }
@@ -231,20 +230,26 @@ p {
     width: 18%;
   }
 
-  .middle-container div {
-    width: 80%;
+  .profile {
+    width: 72%;
+  }
+
+  .profile-image {
+    margin: auto;
   }
 
   .profile p {
-    text-align: center;
     width: 100%;
-    margin: auto;
   }
 
   .img {
     float: none;
     width: 50%;
-    margin: 2% 20%;
+    margin: 2% 17%;
+  }
+
+  .project-row {
+    width: 90%;
   }
 
   .project-row h3 {
@@ -258,6 +263,7 @@ p {
   .button-1,
   .button-2 {
     text-align: center;
+    padding: 5%;
   }
 
   .navigation a {
@@ -274,5 +280,9 @@ p {
 
   .top-container-image {
     width: 150px;
+  }
+
+  .bottom-container img {
+    width: 30px;
   }
 }
