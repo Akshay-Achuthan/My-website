@@ -199,6 +199,7 @@ hr {
 
   .project-sec img {
     float: none;
+    width: 100px;
   }
 
   .project-sec-left-buttons {
