@@ -61,3 +61,39 @@ h3 {
   border-radius: 20px;
   padding: 10px;
 }
+
+@media (min-width: 200px) and (max-width: 800px) {
+  /* html tags */
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  /* navigation menu */
+
+  .navigation ul {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .navigation li {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .navigation a {
+    font-size: 1rem;
+  }
+}
